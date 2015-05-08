@@ -34,7 +34,7 @@ function switchDisplay() {
 	isFullscreen = true;
 }
 
-Mousetrap.bind('esc', function() { if (isFullscreen) switchDisplay})
+Mousetrap.bind('esc', function() { if (isFullscreen) switchDisplay() })
 
 Mousetrap.bind('left', function() { loadImage(currentImage-1) })
 
