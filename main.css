@@ -1,0 +1,79 @@
+#thumbnails div {
+	width: 20%;
+	padding-bottom: 20%;
+	height: 0;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+#thumbnails div img {
+	position: absolute;
+	left: 0;
+	width: auto !important;
+	min-height: 100%;
+	min-width: 100%;
+	max-height: 179%;
+	max-width: 179%;
+}
+
+#thumbnails {
+	display: block;
+}
+
+#fullscreen {
+	display: none;
+	color: white;
+}
+
+body {
+	background: black;
+	font-family: "Helvetica";
+}
+
+#fullscreen h2, #fullscreen h5 {
+	display: inline-block;
+}
+
+#fullscreen h2 {
+	margin: 10px 10px 10px 15px;
+}
+
+#fullscreen #img {
+	display: inline-block;
+	max-height: 100%;
+	width: auto !important;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.helper {
+	vertical-align: middle;
+	height: 100%;
+	display: inline-block;
+}
+
+#imgcontainer {
+	vertical-align: middle;
+	height: calc(100% - 60px);
+	text-align: center;
+	border-top: 2px solid #333;
+}
+
+html, body, #fullscreen {
+	height: 100%;	
+}
+
+#fullscreen h5 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #aaa;
+	margin: 0;
+}
+
